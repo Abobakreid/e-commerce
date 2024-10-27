@@ -1,0 +1,38 @@
+.background {
+  margin-top: 90px;
+  .b_img {
+    height: 500px;
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .detail {
+    p {
+      max-width: 520px;
+      margin: 20px auto;
+    }
+    .shop {
+      display: inline-block;
+      min-width: 200px;
+      background-color: $maincolor;
+      border: 1px solid $maincolor;
+      color: white;
+      padding: 10px 30px;
+      margin-top: 10px;
+      transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      cursor: pointer;
+      margin-right: 10px;
+      &:hover {
+        background-color: white;
+        color: $maincolor;
+        border: 1px solid $maincolor;
+      }
+    }
+  }
+}
